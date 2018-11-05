@@ -13,7 +13,13 @@
       <br>
       <p><u>YOU</u> broke the Internet !</p>
       <br>
-      <p><button onclick="goBack(goBack)">Go Back</button> to the previous page.</p>
+      <button onclick="goBack()">Go Back</button>
+
+      <script>
+      function goBack() {
+      window.history.back();
+      }
+      </script>
       <br>
     <h3>or</h3>
       <p>try again by clicking: <input type="button" value="Refresh" onClick="refresh"> without any luck. </p>
