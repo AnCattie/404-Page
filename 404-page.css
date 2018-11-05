@@ -1,1 +1,12 @@
+html {
+  background-color: #FFFFFF; background-image: url(loading.gif); background-repeat: no-repeat; background-position: center center; background-size:auto;}
 
+  h1 {color: #702963}
+
+  h2 {color: #E94196}
+
+    img {
+      height: 5cm;
+      width: 5cm
+      
+    }
